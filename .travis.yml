@@ -5,6 +5,5 @@ python:
   - '3.5'
   - '3.6'
 
-install:
-  - sudo apt-get update -qq
-  - 'travis_retry pip install .'
+script:
+  - python setup.py test
