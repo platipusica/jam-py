@@ -1,4 +1,4 @@
-# Jam.py Application Builder
+# Jam.py Application Builder (compatible with Python3)
 
 [![Build Status](https://api.travis-ci.org/platipusica/jam-py.png?branch=master)](http://travis-ci.org/platipusica/jam-py)
 [![Coverage Status](https://coveralls.io/repos/github/platipusica/jam-py/badge.svg?branch=master)](https://coveralls.io/github/platipusica/jam-py?branch=master)
@@ -35,7 +35,6 @@ With Jam.py Application Builder, you can resolve a specific business problem. Ou
 **jsCharts or any charting libraries**
 
 * Locked-in with a vendor charting capabilities? Never again. Use free libraries as jsChart, at.al.
-
 * Use the same charting capabilities on your mobile devices, once for all.
 * Visualise charts immediately after you create/import tables, with a few lines of code. Simple and effective.
 * Analyzing/displaying BIG data? Add free Python lib's, build a Jam Web Form with parameters, execute on the server. 
@@ -114,7 +113,7 @@ Give an example
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Andrew Yushev** - [Jam-py.com](https://github.com/jam-py)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
