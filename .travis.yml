@@ -7,4 +7,4 @@ python:
 
 install:
   - sudo apt-get update -qq
-   - 'travis_retry pip install .'
+  - 'travis_retry pip install .'
