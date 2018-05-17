@@ -12,10 +12,34 @@ Why using Jam.py?
 ------------------------------------
 DRY principle! Don't repeat yourself, do it once, do it well.
 
-With Jam.py Databases Application Builder, you can resolve a specific business problem. Out of the box Jam is providing: fast access to underlying databases, security, authentication, validation, calendars, multi languages, all of that with minimum of coding needed. Being Python framework, it is extensible and flexible.
+With Jam.py Application Builder, you can resolve a specific business problem. Out of the box Jam is providing: fast access to underlying databases, security, authentication, validation, calendars, multi languages, all of that with minimum of coding needed. Being Python framework, it is extensible and flexible.
 
+**“All in the browser” framework**
+* Internet Browser IDE
+* Code Editor with Syntax Highlighting and Code Completion
+* No declarative options, you are in charge.
+* Instant WYSIWYG
+* Application lifecycle tracking.
+* SQL and stored procedures supported for major vendors.
+* Integrate any Python library with no contract lock-in and reduce cost instantly.
+* Bootstrap, JQuery, JS, all in here. Use it with no fuss and learning this massive libraries.
+* Create rich, informative reports, due to band-oriented report generation based on LibreOffice templates.
 
+**Event driven grids**
 
+* Event driven grids enable you to easily manipulate data simply by clicking on a cell and editing its value.
+* Event driven data-aware visual interface controls makes the framework flexible and powerful.
+* Edit your data in the grid, as you would in any Desktop spreadsheet application.
+* Create the master-detail table with breeze, utilising templates for displaying, which is no more than a copy/paste. Easy. * Again, no declarative methods, the control is with you as it should be.
+
+**jsCharts or any charting libraries**
+
+* Locked-in with a vendor charting capabilities? Never again. Use free libraries as jsChart, at.al.
+
+* Use the same charting capabilities on your mobile devices, once for all.
+* Visualise charts immediately after you create/import tables, with a few lines of code. Simple and effective.
+* Analyzing/displaying BIG data? Add free Python lib's, build a Jam Web Form with parameters, execute on the server. 
+* Profit.
 
 ## Getting Started
 
@@ -83,7 +107,10 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+```
+Give an example
+```
+
 
 ## Authors
 
