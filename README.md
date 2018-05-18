@@ -44,6 +44,10 @@ With Jam.py Application Builder, you can resolve a specific business problem. Ou
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+
+Installation
+------------
+
 ### Dependencies
 
  * python 2.7 // python 3.6
@@ -51,10 +55,6 @@ These instructions will get you a copy of the project up and running on your loc
  * For Oracle database access: cx_oracle
  * For Firebird database access: fdb
  * For Jam.py Reports editing/creation: LibreOffice
- 
-
-
-## Installing
 
 ## Installing an official release with pip
 
