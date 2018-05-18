@@ -6,9 +6,8 @@ python:
   - '3.6'
 
 install:
-    - sudo apt-get install -qq coveralls
+      - 'travis_retry pip install coveralls'
 script:
-  - python setup.py install
   - 'coverage run --source=jam --rcfile=jam/tests/coverage.rc setup.py test'
   - 'coverage report -m --rcfile=jam/tests/coverage.rc'
   
