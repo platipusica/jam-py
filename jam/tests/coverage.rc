@@ -1,0 +1,9 @@
+[run]
+branch = True
+
+omit = 
+	jam/third_party*
+	jam/db*
+
+[paths]
+source =  jam
