@@ -54,7 +54,7 @@ These instructions will get you a copy of the project up and running on your loc
  
 
 
-### Installing
+## Installing
 
 ## Installing an official release with pip
 
@@ -86,6 +86,24 @@ sudo python setup.py install
 
 This will install Jam.py in your Python installation’s site-packages directory.
 
+## Running the Demo App
+
+Navigate to jam installation demo folder, enter the command:
+```
+python server.py
+```
+
+You'll have the Demo App running at http://localhost:8001
+
+## Create a new App
+
+```
+mkdir newapp
+cd newapp
+jam-project.py
+python server.py
+```
+The new and empty App will run at http://localhost:8001
 
 ## Running the tests
 
