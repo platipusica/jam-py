@@ -54,21 +54,32 @@ Give examples
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
+## Installing an official release with pip
 
-Say what the step will be
+# Install pip. 
 
+The easiest is to use the standalone pip installer.
+
+If you’re using Linux, Mac OS X or some other flavor of Unix, enter the command:
 ```
-Give the example
+sudo pip install jam.py 
+```
+at the shell prompt. If you’re using Windows, start a command shell with administrator privileges and run the command pip install jam.py. This will install Jam.py in your Python installation’s site-packages directory.
+
+
+## Installing an official release manually¶
+
+Download the package archive.
+
+Create a new directory and unzip the archive there.
+
+From the directory enter the command:
+```
+sudo python setup.py install
 ```
 
-And repeat
+This will install Jam.py in your Python installation’s site-packages directory.
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
@@ -119,7 +130,7 @@ See also the list of [contributors](https://github.com/your/project/contributors
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the BSD License.
 
 ## Acknowledgments
 
