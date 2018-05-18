@@ -44,19 +44,20 @@ With Jam.py Application Builder, you can resolve a specific business problem. Ou
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
+### Dependencies
 
-What things you need to install the software and how to install them
+ * python 2.7 // python 3.6
+ * For MySQL database access: mysqlclient, libmysqlclient-dev
+ * For Oracle database access: cx_oracle
+ * For Firebird database access: fdb
+ * For Jam.py Reports editing/creation: LibreOffice
+ 
 
-```
-Give examples
-```
 
 ### Installing
 
 ## Installing an official release with pip
 
-# Install pip. 
 
 The easiest is to use the standalone pip installer.
 
@@ -64,16 +65,21 @@ If you’re using Linux, Mac OS X or some other flavor of Unix, enter the comman
 ```
 sudo pip install jam.py 
 ```
-at the shell prompt. If you’re using Windows, start a command shell with administrator privileges and run the command pip install jam.py. This will install Jam.py in your Python installation’s site-packages directory.
+at the shell prompt. If you’re using Windows, start a command shell with administrator privileges and run the command:
+```
+pip install jam.py. 
+```
+This will install Jam.py in your Python installation’s site-packages directory.
 
 
-## Installing an official release manually¶
+## Installing an official release manually
 
-Download the package archive.
+Download the package archive from https://github.com/jam-py/jam-py/tree/master
 
 Create a new directory and unzip the archive there.
 
-From the directory enter the command:
+From the above directory, enter the command:
+
 ```
 sudo python setup.py install
 ```
@@ -107,9 +113,6 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Contributing
 
