@@ -4,9 +4,12 @@ python:
   - '3.4'
   - '3.5'
   - '3.6'
+  
 install:
   - python setup.py install
+  
 script:
   - 'coverage run --source=jam --rcfile=jam/tests/coverage.rc setup.py test'
-  - 'coverage report -m --rcfile=jam/tests/coverage.rc'  
+  - 'coverage report -m --rcfile=jam/tests/coverage.rc'
+  
 after_success: 'coveralls'
