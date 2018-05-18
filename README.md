@@ -88,7 +88,7 @@ This will install Jam.py in your Python installation’s site-packages directory
 
 ## Running the Demo App
 
-Navigate to jam installation demo folder, enter the command:
+Navigate to jam.py installation demo folder, enter the command:
 ```
 python server.py
 ```
@@ -105,42 +105,13 @@ python server.py
 ```
 The new and empty App will run at http://localhost:8001
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
+Please visit http://jam-py.com/docs/intro/index.html for complete Getting Started Introduction.
 
 
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
-
-```
-Give an example
-```
 
 
 ## Authors
