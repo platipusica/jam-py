@@ -5,6 +5,8 @@ python:
   - '3.5'
   - '3.6'
 
+install:
+    - sudo apt-get install -qq coveralls
 script:
   - python setup.py install
   - 'coverage run --source=jam --rcfile=jam/tests/coverage.rc setup.py test'
